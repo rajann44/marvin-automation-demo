@@ -1,0 +1,16 @@
+{
+  "name": "marvin-automation-demo",
+  "version": "1.0.0",
+  "description": "marvin automation framework using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:qa": "npx cypress run --spec 'cypress/e2e/*.cy.js' --env base_url=qa"
+  },
+  "author": "rajan",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.5.1",
+    "cypress-mochawesome-reporter": "^3.3.0"
+  }
+}
