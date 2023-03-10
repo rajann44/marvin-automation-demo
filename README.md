@@ -10,7 +10,7 @@ To Run Tests in Headless Mode<br>
 To Run Tests in Headed Mode<br>
 <code>npx cypress run --headed</code>
 
-When Github Actions Workflow is executed/triggered, reports can be viewed here:
+When Github Actions Workflow is executed/triggered, reports can be viewed here:<br>
 Automation Report: https://rajann44.github.io/marvin-automation-demo/
 
 I have created custom command so that it can be possible to run tests on different env.<br>
